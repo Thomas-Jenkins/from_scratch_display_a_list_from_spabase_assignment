@@ -7,6 +7,7 @@ const params = new URLSearchParams(window.location.search);
 async function loadData() {
     const data = await getJob(params.get('id'));
     const jobDiv = renderJobDetails(data);
+    // jobDetailContainer.classList.add('');
     jobDetailContainer.append(jobDiv);
 }
 loadData();
