@@ -33,3 +33,31 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+/* My code after */
+.main-board {
+    display: grid;
+    grid-template-columns: 5% 95%;
+}
+.info-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: fit-content;
+}
+.item {
+    border: 1px solid black;
+    width: 170px;
+    height: 230px;
+    padding: 10px;
+    margin: 5px;
+    background-color: blanchedalmond;
+}
+.item img {
+    width: 150px;
+}
+.nav {
+    background-color: bisque;
+}
+.detail-card {
+    
+}
